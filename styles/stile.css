@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 10px auto;
+    width: 750;
+    height: auto;
+
+}
 header {
     width: 750px;
     height: 80px;
     margin: 0 auto;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -17,7 +23,7 @@ header {
     border-right: solid rgba(219,219,219,0.5);
     border-width: 1px;
     border-radius: 1px;
-    margin-bottom: ;
+    margin-bottom: 5px;
 }
 
 .navigazione { 
@@ -53,15 +59,13 @@ main > div {
 /* Prima sezione */
 
 .contenitore1 {
-    background-image: url("../img/banner.jpg");
+    background:  ("../img/banner.jpg");
     background-size: cover;
     background-position: 0;
     width: 750px;
     height: 289px;
     margin-bottom: 20px;
-}
-
-.banner1 {
+    border-radius: 15px;
 }
 
 .contenitore2 {
