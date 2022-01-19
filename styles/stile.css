@@ -39,8 +39,6 @@ header {
     text-decoration: none;
 }
 
-
-
 /* Main CSS */
 
 main {
@@ -52,11 +50,18 @@ main > div {
     margin-bottom: 5px;
 }
 
+/* Prima sezione */
+
 .contenitore1 {
-    background-color: rgba(225,214,122,255);
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: 0;
     width: 750px;
-    height: 350px;
+    height: 289px;
     margin-bottom: 20px;
+}
+
+.banner1 {
 }
 
 .contenitore2 {
