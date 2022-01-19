@@ -7,13 +7,41 @@
 header {
     width: 750px;
     height: 80px;
-    background-color: rgba(229,121,230,255);
     margin: 0 auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
-
-    /* Main CSS */
+    margin-bottom: 15px;
 }
+
+.logo {
+    width: 120px;
+    padding-right: 11px;
+    border-right: solid rgba(219,219,219,0.5);
+    border-width: 1px;
+    border-radius: 1px;
+    margin-bottom: ;
+}
+
+.navigazione { 
+    list-style: none;
+}
+
+.navigazione > li {
+    display: inline-block;
+    line-height: 2em;
+}
+
+.navigazione > li > a {
+    display: inline-block;
+    text-transform:uppercase;
+    color: rgba(168,168,168,255);
+    font-family: sans-serif;
+    font-size: .7em;
+    padding-right: 2px;
+    text-decoration: none;
+}
+
+
+
+/* Main CSS */
 
 main {
     margin: 0 auto;
