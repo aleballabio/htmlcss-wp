@@ -59,14 +59,23 @@ main > div {
 /* Prima sezione */
 
 .contenitore1 {
-    background:  ("../img/banner.jpg");
+    background-image: url("../img/banner.jpg");
     background-size: cover;
     background-position: 0;
     width: 750px;
-    height: 289px;
+    height: 300px;
     margin-bottom: 20px;
     border-radius: 15px;
 }
+
+.overlay {
+    background-color: black;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+}
+
+
 
 .contenitore2 {
     background-color: rgba(3,134,251,255);
