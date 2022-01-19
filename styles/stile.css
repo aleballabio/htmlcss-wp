@@ -57,7 +57,7 @@ main {
 
 main > div {
     margin: 0 auto;
-    margin-bottom: 5px;
+    margin-bottom: 1.3rem;
 }
 
 /* Prima sezione */
@@ -168,6 +168,12 @@ h3 {
 footer {
     width: 750px;
     height: 35px;
-    background-color: rgba(140,0,255,255);
     margin: 0 auto;
+    text-align: center;
+    font-size: .7rem;
  }
+
+.hearts {
+    color: red;
+    font-size: 1.1rem;
+}
