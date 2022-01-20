@@ -13,6 +13,8 @@ html {
     margin: 10px auto;
     max-width: 750px;
     max-height: auto;
+    padding-left: 1em;
+    padding-right: 1em;
 
 }
 header {
