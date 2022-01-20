@@ -100,7 +100,7 @@ main > div {
 
 
 .contenitore2 {
-    max-width: 750px;
+    width: 750px;
 }
 
 .contenitore2::after {
